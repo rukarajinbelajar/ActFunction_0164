@@ -19,3 +19,8 @@ float LuasLingkaran(int a){
 void output(){
     cout << "Hasil : " <<  LuasLingkaran(phi,r) << endl;
 }
+//program utama
+int main (){
+    input();
+    outpu();
+}

@@ -12,12 +12,12 @@ void input(){
     cin >> r;
 }
 //fungsi hitung luas
-float LuasLingkaran(float a,int b){
-    return a*b*b;
+float LuasLingkaran(int b){
+    return phi*b*b;
 }
 //prosedur luas lingkaran
 void output(){
-    cout << " Hasilnya : " <<  LuasLingkaran(phi,r) << endl;
+    cout << " Hasilnya : " <<  LuasLingkaran(r) << endl;
 }
 //program utama
 int main (){

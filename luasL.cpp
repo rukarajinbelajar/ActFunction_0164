@@ -11,6 +11,7 @@ void input(){
     cout << "masukkan r : ";
     cin >> r;
 }
-int LuasLingkaran(int a,int b){
+//fungsi hitung luas
+float LuasLingkaran(int a){
     return a*r^2
 }

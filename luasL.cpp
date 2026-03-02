@@ -11,5 +11,7 @@ void input(){
     cin >> phi;
     cout << "masukkan r : ";
     cin >> r;
-
+}
+int LuasLingkaran(int a,int b){
+    return a*r^2
 }

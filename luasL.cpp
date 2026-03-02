@@ -12,8 +12,8 @@ void input(){
     cin >> r;
 }
 //fungsi hitung luas
-float LuasLingkaran(int a){
-    return phi*a*a;
+float LuasLingkaran(float a,int b){
+    return a*b*b;
 }
 //prosedur luas lingkaran
 void output(){

@@ -17,7 +17,7 @@ float LuasLingkaran(float a,int b){
 }
 //prosedur luas lingkaran
 void output(){
-    cout << " Hasilnya : " <<  LuasLingkaran(r) << endl;
+    cout << " Hasilnya : " <<  LuasLingkaran(phi,r) << endl;
 }
 //program utama
 int main (){

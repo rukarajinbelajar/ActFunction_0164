@@ -13,5 +13,9 @@ void input(){
 }
 //fungsi hitung luas
 float LuasLingkaran(int a){
-    return a*r^2
+    return phi*r^2;
+}
+//prosedur luas lingkaran
+void output(){
+    cout << "Hasil : " <<  LuasLingkaran(phi,r) << endl;
 }

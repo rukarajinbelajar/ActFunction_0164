@@ -8,8 +8,6 @@ float phi = 3.14159;
 
 //implementasi fungsi dan prosedur
 void input(){
-    cout << "masukkan phi : ";
-    cin >> phi;
     cout << "masukkan r : ";
     cin >> r;
 }

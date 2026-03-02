@@ -8,19 +8,19 @@ float phi = 3.14159;
 
 //implementasi fungsi dan prosedur
 void input(){
-    cout << "masukkan r : ";
+    cout << "masukkan jari-jari : ";
     cin >> r;
 }
 //fungsi hitung luas
 float LuasLingkaran(int a){
-    return phi*r^2;
+    return phi*a*a;
 }
 //prosedur luas lingkaran
 void output(){
-    cout << "Hasil : " <<  LuasLingkaran(phi,r) << endl;
+    cout << " Hasilnya : " <<  LuasLingkaran(r) << endl;
 }
 //program utama
 int main (){
     input();
-    outpu();
+    output();
 }
